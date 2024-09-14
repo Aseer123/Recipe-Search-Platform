@@ -1,0 +1,20 @@
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap; /* Wraps cards to the next line if they don't fit in one row */
+    justify-content: space-between; /* Adds space between cards */
+    padding: 20px;
+  }
+  
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
